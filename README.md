@@ -1,6 +1,6 @@
 # IBM-Resources
 
-## โครงสร้าง Repository
+## Content
 
 - Netezza User Manual
 - IBM Data Stage User Manual 
