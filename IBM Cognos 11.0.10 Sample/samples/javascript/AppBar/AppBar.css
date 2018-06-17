@@ -1,0 +1,59 @@
+.CCAppBar
+{
+	background-color: #323232;
+	fill: #6D7777;
+	color: #6D7777;
+}
+.CCAppBar.vertical
+{
+	height: 100%;
+	padding-top: 8px;
+}
+.CCAppBar.horizontal
+{
+	width: 100%;
+}
+
+.CCAppBarButton
+{
+	pointer-events: visible;
+	cursor: pointer;
+	padding: 3px;
+	border-width: 4px;
+	border-color: transparent;
+}
+.CCAppBar.vertical .CCAppBarButton
+{
+	margin-bottom: 8px;
+	margin-right: 3px;
+	border-right-style: solid;
+}
+.CCAppBar.horizontal .CCAppBarButton
+{
+	margin-right: 12px;
+	margin-bottom: 3px;
+	display: inline-block;
+	border-bottom-style: solid;
+}
+
+.CCAppBarButton:hover,
+.CCAppBarButton.selected
+{
+	fill: white;
+	color: white;
+}
+
+.CCAppBarButton.selected
+{
+	background-color: #2E2E2E;
+}
+
+.CCAppBar.vertical .CCAppBarButton.selected
+{
+	border-right: 4px solid #5AA700;
+}
+
+.CCAppBar.horizontal .CCAppBarButton.selected
+{
+	border-bottom: 4px solid #5AA700;
+}
